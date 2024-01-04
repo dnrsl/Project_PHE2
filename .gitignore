@@ -397,6 +397,5 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-API/Migrations/*
 PHE2/.vs/*
 PHE2/PHE2/obj/*
