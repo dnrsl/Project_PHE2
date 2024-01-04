@@ -11,7 +11,7 @@ namespace PHE2.Models
     {
         [Key]
         [Column("guid")]
-        public Guid guid { get; set; }
+        public Guid Guid { get; set; }
 
         [Column("created_date")]
         public DateTime CreatedDate { get; set; }

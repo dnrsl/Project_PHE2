@@ -83,3 +83,9 @@ C:\Users\Dani\source\repos\PHE2\PHE2\obj\Debug\PHE2.dll
 C:\Users\Dani\source\repos\PHE2\PHE2\obj\Debug\PHE2.pdb
 C:\Users\Dani\source\repos\PHE2\PHE2\obj\Debug\PHE2.Migrations.InitialCreate.resources
 C:\Users\Dani\source\repos\PHE2\PHE2\obj\Debug\PHE2.csproj.GenerateResource.cache
+C:\Users\Dani\Desktop\Latihan\Project_PHE2\PHE2\PHE2\obj\Debug\PHE2.csproj.AssemblyReference.cache
+C:\Users\Dani\Desktop\Latihan\Project_PHE2\PHE2\PHE2\obj\Debug\PHE2.Migrations.InitialCreate.resources
+C:\Users\Dani\Desktop\Latihan\Project_PHE2\PHE2\PHE2\obj\Debug\PHE2.csproj.GenerateResource.cache
+C:\Users\Dani\Desktop\Latihan\Project_PHE2\PHE2\PHE2\obj\Debug\PHE2.csproj.CoreCompileInputs.cache
+C:\Users\Dani\Desktop\Latihan\Project_PHE2\PHE2\PHE2\obj\Debug\PHE2.dll
+C:\Users\Dani\Desktop\Latihan\Project_PHE2\PHE2\PHE2\obj\Debug\PHE2.pdb

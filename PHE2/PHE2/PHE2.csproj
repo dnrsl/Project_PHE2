@@ -54,8 +54,10 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -127,8 +129,18 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Contratcs\IAccountRepository.cs" />
+    <Compile Include="Contratcs\IAccountRoleRepository.cs" />
+    <Compile Include="Contratcs\ICharacteristicRepository.cs" />
+    <Compile Include="Contratcs\IGeneralRepository.cs" />
+    <Compile Include="Contratcs\IProjectRepository.cs" />
+    <Compile Include="Contratcs\IRoleRepository.cs" />
+    <Compile Include="Contratcs\IUserProjectRepository.cs" />
+    <Compile Include="Contratcs\IUserRepository.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\Phe2DbContext.cs" />
+    <Compile Include="DTOs\AccountRoles\AccountRoleDto.cs" />
+    <Compile Include="DTOs\AccountRoles\NewAccountRoleDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -146,6 +158,14 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Models\UserProject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositoreis\AccountRepository.cs" />
+    <Compile Include="Repositoreis\AccountRoleRepository.cs" />
+    <Compile Include="Repositoreis\CharacteristicRepository.cs" />
+    <Compile Include="Repositoreis\GeneralRepository.cs" />
+    <Compile Include="Repositoreis\ProjectRepository.cs" />
+    <Compile Include="Repositoreis\RoleRepository.cs" />
+    <Compile Include="Repositoreis\UserProjectRepository.cs" />
+    <Compile Include="Repositoreis\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
