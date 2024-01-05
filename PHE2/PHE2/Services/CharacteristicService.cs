@@ -35,7 +35,7 @@ namespace PHE2.Services
             return characteristicDtos;
         }
 
-        public CharacteristicDto? GetByGuid(Guid guid)
+        public CharacteristicDto GetByGuid(Guid guid)
         {
             var characteristicDto = _characteristicRepository.GetByGuid(guid);
             if (characteristicDto is null)
@@ -45,7 +45,7 @@ namespace PHE2.Services
             return (CharacteristicDto)characteristicDto;
         }
 
-        public CharacteristicDto? Create(NewCharacteristicDto newCharacteristicDto)
+        public CharacteristicDto Create(NewCharacteristicDto newCharacteristicDto)
         {
             var characteristicDto = _characteristicRepository.Create(newCharacteristicDto);
             if (characteristicDto is null)

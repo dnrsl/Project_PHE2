@@ -1,10 +1,16 @@
-﻿using System;
+﻿using PHE2.Contratcs;
+using PHE2.Data;
+using PHE2.Repositoreis;
+using PHE2.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Unity;
+using Unity.Mvc5;
 
 namespace PHE2
 {
@@ -16,6 +22,7 @@ namespace PHE2
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            UnityConfig.RegisterComponents();
         }
     }
 }
